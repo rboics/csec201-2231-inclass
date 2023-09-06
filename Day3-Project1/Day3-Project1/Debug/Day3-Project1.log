@@ -1,0 +1,6 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  Source.c
+D:\csec201-2231-inclass\Day3-Project1\Day3-Project1\Source.c(19,20): warning C4018: '<': signed/unsigned mismatch
+D:\csec201-2231-inclass\Day3-Project1\Day3-Project1\Source.c(29,20): warning C4018: '<': signed/unsigned mismatch
+D:\csec201-2231-inclass\Day3-Project1\Day3-Project1\Source.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Day3-Project1.vcxproj -> D:\csec201-2231-inclass\Day3-Project1\Debug\Day3-Project1.exe
