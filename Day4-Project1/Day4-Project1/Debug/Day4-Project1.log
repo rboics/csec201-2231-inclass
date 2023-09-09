@@ -1,0 +1,9 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  XOREncrypt.c
+D:\csec201-2231-inclass\Day4-Project1\Day4-Project1\XOREncrypt.c(14,20): warning C4018: '<': signed/unsigned mismatch
+D:\csec201-2231-inclass\Day4-Project1\Day4-Project1\XOREncrypt.c(18,20): warning C4018: '<': signed/unsigned mismatch
+D:\csec201-2231-inclass\Day4-Project1\Day4-Project1\XOREncrypt.c(22,20): warning C4018: '<': signed/unsigned mismatch
+D:\csec201-2231-inclass\Day4-Project1\Day4-Project1\XOREncrypt.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2231-inclass\Day4-Project1\Day4-Project1\XOREncrypt.c(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2231-inclass\Day4-Project1\Day4-Project1\XOREncrypt.c(12,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Day4-Project1.vcxproj -> D:\csec201-2231-inclass\Day4-Project1\Debug\Day4-Project1.exe
