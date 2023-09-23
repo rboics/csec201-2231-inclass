@@ -1,4 +1,6 @@
 ﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
   source.c
-D:\csec201-2231-inclass\Day7-Project1\Day7-Project1\source.c(29,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2231-inclass\Day7-Project1\Day7-Project1\source.c(43,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2231-inclass\Day7-Project1\Day7-Project1\source.c(25): warning C4716: 'addOne': must return a value
+D:\csec201-2231-inclass\Day7-Project1\Day7-Project1\source.c(35): warning C4716: 'addOnePbR': must return a value
   Day7-Project1.vcxproj -> D:\csec201-2231-inclass\Day7-Project1\Debug\Day7-Project1.exe

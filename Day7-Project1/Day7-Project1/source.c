@@ -18,10 +18,20 @@ int recFact(int n) {
 	}
 }
 
+//Pass-By-Value
+int addOne(int n) {
+	n++;
+	printf("n - %d\n", n);
+}
+
 //Pass-by-Reference
-int pbrRecFact(int* n) {
-
-
+//* in a declaration means that we've got a ptr
+int addOnePbR(int* n) {
+	//* as a unary operator (operator with one operand) means "dereference", opposite of &
+	//Just like & means "address of", * means "value at address"
+	printf("&n=%p\n", &n);
+	(*n)++;
+	printf("n - %d\n", *n);
 }
 
 
@@ -31,6 +41,9 @@ int main(void) {
 	printf("x: %p, res: %p\n", &x, &res);
 	printf("Enter a number: ");
 	scanf("%d", &x);
-	res = recFact(x);
-	printf("Factorial: %d", res);
+	//res = recFact(x);
+	//printf("Factorial: %d", res);
+	addOnePbR(&x);
+	printf("After AddOne: %d\n", x);
+
 }
