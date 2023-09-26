@@ -1,28 +1,18 @@
 #include <stdio.h>
+#include "stack.h"
 
-struct element {
-	int* data;
-	struct element* next;
-};
 
-struct stack {
-	int size;
-	struct element* top;
-};
 
-void initializeStack(struct stack* s) {
-	//(*s).size = 0;	// .size if the left side of the . is an instance
-	s->size = 0;    // ->size if the left side of the . is a pointer
-	s->top = NULL;  //Make the top of the stack point at nothing
-}
-
-void push(struct stack* s, int data) {
-	//We'll allocate one element's worth of bytes on the heap
-	struct element* newElement = malloc(sizeof(struct element));
-
-}
 
 
 int main(void) {
-
+	struct stack myStack;
+	initializeStack(&myStack);
+	push(&myStack, 10);
+	push(&myStack, 20);
+	push(&myStack, 30);
+	print(&myStack);
+	int popped = pop(&myStack);
+	printf("Popped: %d\n", popped);
+	print(&myStack);
 }
