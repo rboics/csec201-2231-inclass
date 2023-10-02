@@ -128,10 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="queue.c" />
     <ClCompile Include="source.c" />
     <ClCompile Include="stack.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="element.h" />
+    <ClInclude Include="queue.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

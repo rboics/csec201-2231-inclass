@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include "stack.h"
+#include "queue.h"
 
 
 
 
 
 int main(void) {
-	struct stack myStack;
-	initializeStack(&myStack);
-	push(&myStack, 10);
-	push(&myStack, 20);
-	push(&myStack, 30);
-	print(&myStack);
-	int popped = pop(&myStack);
+	struct queue myqueue;
+	initializeQueue(&myqueue);
+	enqueue(&myqueue, 10);
+	enqueue(&myqueue, 20);
+	enqueue(&myqueue, 30);
+	printQ(&myqueue);
+	int popped = dequeue(&myqueue);
 	printf("Popped: %d\n", popped);
-	print(&myStack);
+	printQ(&myqueue);
 }

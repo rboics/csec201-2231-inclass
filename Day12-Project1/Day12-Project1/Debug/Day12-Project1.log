@@ -1,0 +1,5 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  source.c
+D:\csec201-2231-inclass\Day12-Project1\Day12-Project1\source.c(26,10): warning C4133: '=': incompatible types - from 'char *' to 'int *'
+D:\csec201-2231-inclass\Day12-Project1\Day12-Project1\source.c(27,11): warning C4133: '=': incompatible types - from 'int *' to 'char *'
+  Day12-Project1.vcxproj -> D:\csec201-2231-inclass\Day12-Project1\Debug\Day12-Project1.exe
