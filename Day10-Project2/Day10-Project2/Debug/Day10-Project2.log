@@ -1,3 +1,9 @@
 ﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
   queue.c
+  source.c
+  stack.c
+D:\csec201-2231-inclass\Day10-Project2\Day10-Project2\stack.c(13,31): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\csec201-2231-inclass\Day10-Project2\Day10-Project2\stack.c(13,18): warning C4047: 'initializing': 'element *' differs in levels of indirection from 'int'
+D:\csec201-2231-inclass\Day10-Project2\Day10-Project2\stack.c(29,2): warning C4013: 'free' undefined; assuming extern returning int
+  Generating Code...
   Day10-Project2.vcxproj -> D:\csec201-2231-inclass\Day10-Project2\Debug\Day10-Project2.exe

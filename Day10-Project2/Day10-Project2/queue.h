@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "element.h"
+
+
 //Comments here based on question in class
 //Meaning #1 - z = y * z;
 //Multiplication
@@ -28,4 +30,6 @@ void initializeQueue(struct queue* s);
 void enqueue(struct queue* s, int data);
 int dequeue(struct queue* s);
 void printQ(struct queue* s);
+int compareQueues(struct queue* q1, struct queue* q2);
+
 #pragma once

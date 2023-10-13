@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include "element.h"
 
+
 //Comments here based on question in class
 //Meaning #1 - z = y * z;
 //Multiplication

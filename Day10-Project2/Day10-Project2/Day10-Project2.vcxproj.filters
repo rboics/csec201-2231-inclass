@@ -32,5 +32,8 @@
     <ClInclude Include="queue.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
